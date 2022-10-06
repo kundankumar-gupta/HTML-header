@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-image: url("../image/nav-bg2.jpg ");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 80%;
+  color: rgb(26, 197, 26);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px 0;
+}
+.container h1 {
+  color: green;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li a {
+  background-color: blue;
+  color: white;
+  padding-left: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+nav ul li a:hover {
+  color: red;
+}
